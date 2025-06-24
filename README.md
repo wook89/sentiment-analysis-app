@@ -11,6 +11,12 @@
 - 예측 결과 + 확률 바 차트 시각화
 - 한글 텍스트 완벽 지원
 
+## 📸 예시 화면
+
+> 리뷰: `재밌다`
+
+![예시 화면](assets/sample_ui.png)
+
 ---
 
 ## 🖥️ 실행 방법
@@ -35,9 +41,14 @@ Tokenizer: Keras Tokenizer (저장 및 불러오기)
 
 Tokenizer: [game_review_sentiment.pkl](https://drive.google.com/file/d/1u94r_rzMJrRfxQf-42b7RvXGHknVlEYR/view?usp=drive_link)
 
+### 3. 주의사항 또는 에러 해결 팁 (선택사항)
 
-## 📸 예시 화면
+## ⚠️ 실행 시 주의사항
 
-> 리뷰: `재밌다`
-
-![예시 화면](assets/sample_ui.png)
+- GPU 환경에서 실행 시 `out of memory` 오류가 발생하면, Streamlit 코드 상단에 아래 코드 추가:
+```python
+import tensorflow as tf
+gpus = tf.config.experimental.list_physical_devices('GPU')
+if gpus:
+    for gpu in gpus:
+        tf.config.experimental.set_memory_growth(gpu, True)
