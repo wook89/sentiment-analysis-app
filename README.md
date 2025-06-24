@@ -34,3 +34,10 @@ Tokenizer: Keras Tokenizer (저장 및 불러오기)
 모델: https://drive.google.com/file/d/1FqGmrZoQjO-gcSPZoKXs7XMgSX-8qs_U/view?usp=drive_link
 
 Tokenizer: [game_review_sentiment.pkl](https://drive.google.com/file/d/1u94r_rzMJrRfxQf-42b7RvXGHknVlEYR/view?usp=drive_link)
+
+
+## 📸 예시 화면
+
+> 리뷰: `재밌다`
+
+![예시 화면](assets/sample_ui.png)
