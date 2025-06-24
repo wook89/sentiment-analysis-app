@@ -19,6 +19,7 @@
 ```bash
 pip install -r requirements.txt
 
-### 2. Streamlit 앱 실행
+
+### 1. Streamlit 앱 실행
 ```bash
 streamlit run app.py
