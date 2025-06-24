@@ -18,8 +18,9 @@
 ### 1. 필수 패키지 설치
 ```bash
 pip install -r requirements.txt
-
+```
 
 ### 1. Streamlit 앱 실행
 ```bash
 streamlit run app.py
+```
