@@ -69,18 +69,3 @@ plt.rcParams['axes.unicode_minus'] = False
 
 이 프로젝트는 MIT 라이선스를 따릅니다.  
 자유롭게 사용, 수정, 배포하되, 출처를 표기해 주세요.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
