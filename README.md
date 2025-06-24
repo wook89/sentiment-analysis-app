@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ### 2. Streamlit 앱 실행
 ```bash
-streamlit run app.py
+streamlit run Sentiment_analysis_app.py
 ```
 🧠 사용된 모델
 Architecture: Embedding → BiLSTM → Dropout → Dense(softmax)
