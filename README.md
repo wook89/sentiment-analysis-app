@@ -52,3 +52,29 @@ gpus = tf.config.experimental.list_physical_devices('GPU')
 if gpus:
     for gpu in gpus:
         tf.config.experimental.set_memory_growth(gpu, True)
+
+matplotlib 한글 깨짐 문제는 다음 코드로 해결:
+
+python
+import matplotlib.pyplot as plt
+plt.rcParams['font.family'] = 'Malgun Gothic'  # Windows
+plt.rcParams['axes.unicode_minus'] = False
+
+### 4. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
