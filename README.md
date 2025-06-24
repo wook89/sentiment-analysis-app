@@ -20,7 +20,15 @@
 pip install -r requirements.txt
 ```
 
-### 1. Streamlit 앱 실행
+### 2. Streamlit 앱 실행
 ```bash
 streamlit run app.py
 ```
+🧠 사용된 모델
+Architecture: Embedding → BiLSTM → Dropout → Dense(softmax)
+
+Loss Function: Categorical CrossEntropy
+
+Tokenizer: Keras Tokenizer (저장 및 불러오기)
+
+모델: best_model_GameReview.h5, Tokenizer: game_review_sentiment.pkl
